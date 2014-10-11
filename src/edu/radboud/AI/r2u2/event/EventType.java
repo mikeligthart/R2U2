@@ -1,0 +1,18 @@
+package edu.radboud.ai.r2u2.event;
+
+/**
+ * Created by Gebruiker on 23-5-2014.
+ */
+public enum EventType {
+    NEW_EVENT_HISTORY,
+
+    NEW_SPEECH_DATA,
+
+    CONVERSATION_STARTED, CONVERSATION_ENDED,
+
+    WANDERING, TWEET_SEND,
+
+    INCOMMING_COMMAND, OUTGOING_COMMAND,
+
+    ROBOME_CONNECTION, HEADPHONE_CONNECTION, ROBOME_LISTENING, VOLUME
+}
